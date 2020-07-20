@@ -8,6 +8,7 @@
     <thead>
         <tr>
             <td>id</td>
+            <td>ステータス</td>
             <td>タスク</td>
         </tr>
     </thead>
@@ -15,6 +16,7 @@
     @foreach($tasks as $task)
         <tr>
             <td><a href="{{ route('tasks.show', ['task' => $task]) }}">{{$task->id}}</a></td>
+            <td>{{$task->status}}</td>
             <td>{{$task->content}}</td>
         </tr>
     @endforeach

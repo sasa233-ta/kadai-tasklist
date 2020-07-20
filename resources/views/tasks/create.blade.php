@@ -8,6 +8,8 @@
         <form method="POST" action="{{ route('tasks.store') }}" accept-charset="UTF-8">
         @csrf
             <div class="form-group">
+                <label for="status">ステータス：</label>
+                <input class="form-control" name="status" type="text" id="status">
                 <label for="content">タスク：</label>
                 <input class="form-control" name="content" type="text" id="content">
             </div>
