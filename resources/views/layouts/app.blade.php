@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     </head>
     <?php
-    echo var_dump($_SERVER);
+    //echo var_dump($_SERVER);
     ?>
     <body>
         <header class="mb-4">
