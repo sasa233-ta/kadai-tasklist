@@ -8,9 +8,9 @@
         <form method="POST" action="{{ route('tasks.store') }}" accept-charset="UTF-8">
         @csrf
             <div class="form-group">
-                <label for="status">ステータス：</label>
+                <label for="status">status：</label>
                 <input class="form-control" name="status" type="text" id="status">
-                <label for="content">タスク：</label>
+                <label for="content">task：</label>
                 <input class="form-control" name="content" type="text" id="content">
             </div>
             <input class="btn btn-primary" type="submit" value="作成">
